@@ -1,0 +1,257 @@
+
+
+
+
+* {
+	-fx-pane-background-color: #f7f7f7;
+	-fx-main-text-color: #525252;
+	-fx-prompt-text-color: #525252;
+	-fx-input-background-color: #d6d6d6;
+	-fx-input-background-color-hover: #b3b3b3;
+	-fx-input-border-color-hover: #257cd3;
+
+	-fx-accent-color: #257cd3
+}
+
+.centerPane {
+	-fx-background-color: -fx-pane-background-color;
+}
+
+.headerLabel {
+	-fx-text-fill: -fx-main-text-color;
+	-fx-font-weight: bold;
+
+}
+.fieldLabel {
+	-fx-text-fill: -fx-main-text-color;
+	-fx-font-weight: bold;
+}
+
+
+
+
+
+.textFields {
+	-fx-effect: null;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-background-color: -fx-input-background-color;
+
+	-fx-font-size: 16px;
+	-fx-prompt-text-fill: -fx-prompt-text-color;
+	-fx-text-fill: -fx-main-text-color;
+}
+.textFields:hover {
+    -fx-background-color: -fx-input-background-color-hover;
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.textFields:focused {
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+
+
+
+
+
+
+.dateFields {
+	-fx-background-color: transparent;
+	-fx-font-size: 16px;
+}
+.dateFields .text-field {
+	-fx-background-color: -fx-input-background-color;
+	-fx-border-radius: 0;
+	-fx-prompt-text-fill: -fx-prompt-text-color;
+	-fx-text-fill: -fx-main-text-color;
+}
+.dateFields .text-field:hover {
+	-fx-background-color: -fx-input-background-color-hover;
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.dateFields .text-field:focused {
+	-fx-border-color: -fx-input-border-color-hover;
+}
+.dateFields .arrow-button {
+	-fx-background-color: -fx-input-background-color;
+	-fx-background-radius: 0;
+	-fx-cursor: hand;
+	-fx-border-color: transparent;
+}
+.dateFields .arrow-button:hover {
+	-fx-background-color: -fx-input-background-color-hover;
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.dateFields .arrow-button .arrow {
+	-fx-background-color: -fx-pane-background-color;
+}
+.dateFields .cell {
+	-fx-background-color: -fx-pane-background-color;
+}
+.dateFields .cell:hover {
+	-fx-background-color: -fx-input-background-color;
+	-fx-text-fill: -fx-main-text-color;
+}
+.date-picker-popup {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-accent-color;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: -fx-pane-background-color;
+}
+
+
+
+
+
+.passwordFields {
+	-fx-effect: null;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-background-color: -fx-input-background-color;
+
+	-fx-font-size: 16px;
+	-fx-prompt-text-fill: -fx-prompt-text-color;
+	-fx-text-fill: -fx-main-text-color;
+}
+.password-field:hover {
+	-fx-background-color: -fx-input-background-color-hover;
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.password-field:focused {
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+
+
+
+
+
+.comboBoxFields {
+	-fx-effect: null;
+	-fx-background-insets: 0;
+	-fx-background-color: -fx-input-background-color;
+
+	-fx-text-fill: -fx-main-text-color;
+}
+.comboBoxFields:hover {
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.comboBoxFields .list-cell {
+	-fx-font-size: 16px;
+	-fx-text-fill: -fx-main-text-color;
+	-fx-background-color: -fx-input-background-color;
+}
+.comboBoxFields .list-cell:hover {
+    -fx-text-fill: -fx-main-text-color;;
+	-fx-background-color: -fx-input-background-color-hover;
+	-fx-border-color: -fx-input-border-color-hover;
+	-fx-border-width: 2px;
+}
+.comboBoxFields .arrow {
+	-fx-background-color: -fx-main-text-color;
+
+}
+
+
+
+
+
+.submitButton {
+	-fx-effect: null;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-cursor: hand;
+
+	-fx-background-color: -fx-pane-background-color;
+	-fx-text-fill: -fx-accent-color;
+	-fx-border-color: -fx-accent-color;
+	-fx-border-width: 2px;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+.submitButton:hover {
+	-fx-border-color: -fx-pane-background-color;
+	-fx-border-width: 2px;
+	-fx-background-color: -fx-accent-color;
+	-fx-text-fill: -fx-pane-background-color;
+}
+
+
+
+
+
+.hyperlinkButton {
+	-fx-effect: null;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-cursor: hand;
+
+	-fx-background-color: -fx-accent-color;
+	-fx-border-color: -fx-pane-background-color;
+	-fx-border-width: 2px;
+	-fx-text-fill: -fx-pane-background-color;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+.hyperlinkButton:hover {
+	-fx-border-color: -fx-accent-color;
+	-fx-border-width: 2px;
+	-fx-background-color: -fx-pane-background-color;
+	-fx-text-fill: -fx-accent-color;
+}
+
+
+
+
+
+.sidePanes {
+	-fx-background-color: -fx-accent-color;
+}
+
+
+
+
+
+/* Make the first row's borders transparent */
+.accountGrid {
+	-fx-border-color: -fx-accent-color;
+}
+.accountGrid .firstRow {
+}
+
+.nameHeader, .tableHeaders {
+	-fx-text-fill: -fx-accent-color;
+}
+
+.nameHeader {
+	-fx-font-weight: bold;
+	-fx-font-size: 48px;
+}
+
+.tableHeaders {
+	-fx-font-weight: bold;
+	-fx-font-size: 30px;
+}
+
+.tableHeader2 {
+	-fx-text-fill: #494949;
+}
+
+.balanceLabel {
+	-fx-text-fill: #494949;
+}
+
+.transactionLabel {
+	/* red: #d40000 */
+	/* green: #13a100 */
+	/* grey: #cacaca */
+	/* -fx-text-fill: #cacaca; */
+}
